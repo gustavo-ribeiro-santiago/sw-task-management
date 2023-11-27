@@ -7,7 +7,7 @@ const descriptions = [
   },
   {
     title: "Tasks",
-    text: "By selecting a specific voyage, it appears all its loading ports (calls) and the respectives tasks for each call."
+    text: "By selecting a specific voyage, the application shows all its loading ports (calls), the arrival and departure dates and the respectives tasks for each call."
   },
   {
     title: "Navigation Bar Options",
