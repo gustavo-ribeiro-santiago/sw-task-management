@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gustavo Ribeiro Santiago's Portfolio</title>
+<meta charset="UTF-8" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="container-fluid position-fixed bg-white z-3" style="opacity: 0.9;" id="navbar">
+    <header class="w-full mx-4 d-flex flex-wrap justify-content-evenly py-3 mb-2 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-5 text-primary">Gustavo Ribeiro Santiago's Portfolio</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="https://gustavo-ribeiro-santiago.github.io/" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="https://gustavo-ribeiro-santiago.github.io/projects" class="nav-link active" aria-current="page">Projects</a></li>
+      </ul>
+    </header>
+  </div>
+  
+  <!-- Page Title -->
+  <h1 class="h3 text-center" style="padding-top: 90px;"> Rioops Task Manager </h1>
+
+  <!-- Project Description -->
+ <p class="text-center mx-5 mt-3">The Rioops Task Manager is a comprehensive task management system developed from 2019 to 2020 using Microsoft Access and VBA for seamless integration and efficient task tracking within a large shipping company. This tailored solution was designed to streamline, automate and organize various operational tasks, enhancing productivity and ensuring timely deliveries.</p>
+
+  <!-- Carousel -->
+  <div id="carousel" class="carousel  slide w-75 start-50 translate-middle-x" data-bs-theme="dark">
+    <div id="carouselIndicators" class="carousel-indicators border-0" style="top: 98%">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div id="carouselImages" class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/screen-1.png" class="d-block w-75 position-relative start-50 translate-middle-x rounded-2 border-1" style="border-style:solid" alt="Issues Management Application Print Screen">
+        <div class="carousel-caption d-none d-md-block position-relative start-0 top-100 mt-1 pb-0">
+          <h6 class="fs-6">Welcome</h6>
+          <p class="mb-0">The application features login authentication with role-based access controls, allowing different teams to access only the information relevant to their responsibilities.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/screen-2.png" class="d-block w-75 position-relative start-50 translate-middle-x rounded-2 border-1" style="border-style:solid" alt="Issues Management Application Print Screen">
+        <div class="carousel-caption d-none d-md-block position-relative start-0 top-100 mt-1 pb-0">
+          <h6>Home Menu</h6>
+          <p class="mb-0">From the home menu, the user can access his tasks, view the last changes in the company's Voyage Management System (Dataloy), change the application settings and exit.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <script src="carousel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
