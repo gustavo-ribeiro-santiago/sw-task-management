@@ -19,19 +19,19 @@ const captions = [
   },
   {
     title: 'Settings',
-    text: 'In the settings section, the user could change account settings, tasks settings and automations settings.',
+    text: 'In the settings section, the user can change account settings, tasks settings and automations settings.',
   },
   {
     title: 'Account Settings',
-    text: `n the Account Settings, the user could change account details, such as password or preferences, login to a different account, or create a new account for new employees.`,
+    text: `n the Account Settings, the user can change account details, such as password or preferences, login to a different account, or create a new account for new employees.`,
   },
   {
     title: 'Tasks Settings',
-    text: "Within the task settings, users had the ability to modify tasks' details and deadlines for each trade, offering flexibility to the end-users.",
+    text: "Within the task settings, users have the ability to modify tasks' details and deadlines for each trade, offering flexibility to the end-users.",
   },
   {
     title: 'Automations Settings',
-    text: 'On the automations settings, the user could change parameters relevant to the automations.',
+    text: 'On the automations settings, the user can change parameters relevant to the automations.',
   },
 ];
 
