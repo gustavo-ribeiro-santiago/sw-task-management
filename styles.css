@@ -1,21 +1,13 @@
-.nav-bar {
-  opacity: 0.9;
-}
-
-.nav-title {
-  font-size: large;
-}
-
-.title {
-  padding-top: 130px;
+a.navbar-brand {
+  font-size: 1.1rem;
 }
 
 .description {
-  margin: 12px 20px 12px
+  margin: 12px 20px 12px;
 }
 
 .slide-indicator {
-  top: 95%; 
+  top: 95%;
 }
 
 .slides-carousel {
@@ -41,15 +33,15 @@ figure .custom-caption {
 }
 
 @media (min-width: 768px) {
-  .title{
-    padding-top: 90px;
+  a.navbar-brand {
+    font-size: 1.25rem;
   }
-  .slides-carousel{
+  .slides-carousel {
     width: 75%;
     left: 50%;
     transform: translateX(-50%);
   }
-  .slide-img{
+  .slide-img {
     width: 75%;
     left: 50%;
     transform: translateX(-50%);
